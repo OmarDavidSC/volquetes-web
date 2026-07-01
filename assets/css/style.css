@@ -1,0 +1,163 @@
+﻿:root {
+    --primary: #e0e006;
+    --primary-soft: rgba(216, 0, 35, .12);
+    --dark: #11151f;
+    --dark-soft: #444b5c;
+    --gray: #bebfc3;
+    --light: #fff;
+    --surface: #fff;
+    --border: #fff;
+    --radius: 24px;
+    --shadow: 0 20px 45px rgba(15, 23, 42, .08);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f3f5f9;
+    color: var(--dark);
+    line-height: 1.7;
+}
+
+main {
+    padding-top: 105px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+}
+
+button,
+input,
+textarea {
+    font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: var(--dark);
+}
+
+p {
+    margin: 0;
+}
+
+.section-header {
+    max-width: 760px;
+    margin: auto;
+}
+
+.section-header h2 {
+    font-size: 2.6rem;
+    line-height: 1.08;
+    margin-top: 0.75rem;
+}
+
+.section-header p {
+    color: var(--gray);
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.section-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.85rem 1.4rem;
+    border-radius: 999px;
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: #151111;
+    border: none;
+    border-radius: 999px;
+    padding: 0.95rem 2.2rem;
+    font-weight: 700;
+    transition: all 0.25s ease;
+    box-shadow: 0 20px 35px rgba(216, 0, 35, 0.18);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: #b28188;
+    transform: translateY(-1px);
+}
+
+.btn-outline-custom {
+    color: var(--primary);
+    border: 2px solid rgba(216, 0, 35, 0.18);
+    background: transparent;
+    border-radius: 999px;
+    padding: 0.95rem 2.2rem;
+    font-weight: 700;
+    transition: 0.25s ease;
+}
+
+.btn-outline-custom:hover,
+.btn-outline-custom:focus {
+    background: var(--primary);
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+.card,
+.hero-stat,
+.product-card,
+.service-card,
+.why-card,
+.brand-card,
+.branch-card,
+.quote-card,
+.footer-card {
+    background: var(--surface);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.section-divider {
+    width: 80px;
+    height: 4px;
+    margin: 1.5rem auto 0;
+    border-radius: 999px;
+    background: var(--primary);
+}
+
+@media (max-width: 992px) {
+    .section-header h2 {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    main {
+        padding-top: 120px;
+    }
+
+    .section-header h2 {
+        font-size: 1.85rem;
+    }
+}
