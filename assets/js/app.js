@@ -6,9 +6,10 @@ window.toggleWhatsAppMenu = function (event) {
 
     if (!btn || !options) return;
 
-    btn.classList.toggle('active');
-    options.classList.toggle('active');
-    btn.setAttribute('aria-expanded', String(btn.classList.contains('active')));
+    const isOpen = btn.classList.toggle('active');
+    options.classList.toggle('open', isOpen);
+    options.setAttribute('aria-hidden', String(!isOpen));
+    btn.setAttribute('aria-expanded', String(isOpen));
 };
 
 document.addEventListener('DOMContentLoaded', () => {

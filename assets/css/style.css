@@ -5,10 +5,20 @@
     --dark-soft: #444b5c;
     --gray: #bebfc3;
     --light: #fff;
-    --surface: #fff;
+    /* --surface: #fff; */
     --border: #fff;
     --radius: 24px;
     --shadow: 0 20px 45px rgba(15, 23, 42, .08);
+    /* Superficies */
+    --surface: rgba(255, 255, 255, 0.90);
+    --surface-card: #FFFFFF;
+    /* Bordes */
+    --border-color: #E8DCC3;
+    --shadow: rgba(0, 0, 0, 0.08);
+
+    /* Textos */
+    --text-primary: #2B1D17;
+    --text-secondary: #6B7280;
 }
 
 * {
