@@ -13,10 +13,10 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="/contacto" class="btn btn-primary hero-btn-primary">
+                    <a href="index.php#contacto" class="btn btn-primary hero-btn-primary">
                         Cotiza ahora
                     </a>
-                    <a href="/productos" class="btn-outline-custom">
+                    <a href="?page=productos" class="btn-outline-custom">
                         Ver catálogo
                     </a>
                 </div>
@@ -31,7 +31,7 @@
             <div class="col-lg-6">
                 <div class="hero-image-panel">
                     <div class="hero-image-background"></div>
-                    <img src="/assets/img/hero-volquete.png" alt="Volquete" class="img-fluid hero-truck">
+                    <img src="assets/img/hero-volquete.png" alt="Volquete" class="img-fluid hero-truck">
                     <div class="hero-image-tag">
                         Volquete premium 6x4
                     </div>

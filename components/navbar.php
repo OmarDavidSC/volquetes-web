@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
     <div class="container">
-        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.php">
             <img
-                src="/assets/img/logo.png"
+                src="assets/img/logo.png"
                 alt="Logo"
                 class="navbar-logo">
             <div class="d-flex flex-column">
@@ -26,32 +26,32 @@
             id="navbarMain">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">
+                    <a class="nav-link" href="index.php">
                         Inicio
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#productos">
+                    <a class="nav-link" href="?page=productos">
                         Productos
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#servicios">
+                    <a class="nav-link" href="index.php#servicios">
                         Servicios
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#red-ventas">
+                    <a class="nav-link" href="index.php#red-ventas">
                         Red de Ventas
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#nosotros">
+                    <a class="nav-link" href="index.php#nosotros">
                         Nosotros
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contacto">
+                    <a class="nav-link" href="index.php#contacto">
                         Contacto
                     </a>
                 </li>

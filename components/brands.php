@@ -13,7 +13,7 @@
             <div class="col-md-6 col-lg-3">
                 <div class="brand-card brand-card-highlight">
                     <div class="brand-logo">
-                        <img src="/assets/img/brands/howo.png" alt="HOWO">
+                        <img src="assets/img/brands/howo.png" alt="HOWO">
                     </div>
                     <h5>HOWO</h5>
                     <p>Volquetes y tractocamiones con rendimiento probado.</p>
@@ -22,7 +22,7 @@
             <div class="col-md-6 col-lg-3">
                 <div class="brand-card">
                     <div class="brand-logo">
-                        <img src="/assets/img/brands/shacman.png" alt="SHACMAN">
+                        <img src="assets/img/brands/shacman.png" alt="SHACMAN">
                     </div>
                     <h5>SHACMAN</h5>
                     <p>Equipos robustos para minería y obra pesada.</p>
@@ -31,7 +31,7 @@
             <div class="col-md-6 col-lg-3">
                 <div class="brand-card">
                     <div class="brand-logo">
-                        <img src="/assets/img/brands/sinotruk.png" alt="SINOTRUK">
+                        <img src="assets/img/brands/sinotruk.png" alt="SINOTRUK">
                     </div>
                     <h5>SINOTRUK</h5>
                     <p>Soluciones de transporte pesado confiables.</p>
@@ -40,7 +40,7 @@
             <div class="col-md-6 col-lg-3">
                 <div class="brand-card">
                     <div class="brand-logo">
-                        <img src="/assets/img/brands/foton.png" alt="FOTON">
+                        <img src="assets/img/brands/foton.png" alt="FOTON">
                     </div>
                     <h5>FOTON</h5>
                     <p>Plataforma logística y volquetes de alto valor.</p>

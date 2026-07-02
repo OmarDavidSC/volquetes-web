@@ -14,10 +14,10 @@
                 <div class="footer-card">
                     <h5 class="footer-title"> Navegación </h5>
                     <ul class="footer-links">
-                        <li><a href="/">Inicio</a></li>
-                        <li><a href="#modelos">Modelos</a></li>
-                        <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="index.php#productos">Modelos</a></li>
+                        <li><a href="index.php#servicios">Servicios</a></li>
+                        <li><a href="index.php#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -74,7 +74,3 @@
         </div>
     </div>
 </footer>
-<script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/assets/js/app.js"></script>
-</body>
-</html>

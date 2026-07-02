@@ -1,5 +1,7 @@
 <?php
 // poner rutas
+$page = $_GET['page'] ?? 'home';
+$isProducts = $page === 'productos';
 ?>
 
 <!DOCTYPE html>
@@ -30,21 +32,29 @@
     <link rel="stylesheet" href="assets/css/quote.css">
     <link rel="stylesheet" href="assets/css/whatsapp-float.css">
     <link rel="stylesheet" href="assets/css/partials/login-modal.css">
+    <link rel="stylesheet" href="assets/css/partials/productos-page.css">
 
 </head>
 
 <body>
 
     <?php require 'components/navbar.php'; ?>
-    <?php require 'components/hero.php'; ?>
-    <?php require 'components/brands.php'; ?>
-    <?php require 'components/featured.php'; ?>
-    <?php require 'components/services.php'; ?>
-    <?php require 'components/events.php'; ?>
-    <?php require 'components/branches.php'; ?>
-    <?php require 'components/about.php'; ?>
-    <?php require 'components/why-us.php'; ?>
-    <?php require 'components/quote.php'; ?>
+
+    <?php if ($isProducts): ?>
+        <?php require 'components/partials/products-page.php'; ?>
+    <?php else: ?>
+        <?php require 'components/hero.php'; ?>
+        <?php require 'components/brands.php'; ?>
+        <?php require 'components/featured.php'; ?>
+        <?php require 'components/services.php'; ?>
+        <?php require 'components/events.php'; ?>
+        <?php require 'components/branches.php'; ?>
+        <?php require 'components/about.php'; ?>
+        <?php require 'components/why-us.php'; ?>
+        <?php require 'components/quote.php'; ?>
+    <?php endif; ?>
+
+    <?php require 'components/partials/product-detail-modal.php'; ?>
     <?php require 'components/footer.php'; ?>
     <?php require 'components/whatsapp-float.php'; ?>
 
