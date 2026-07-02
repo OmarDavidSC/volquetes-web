@@ -15,7 +15,7 @@
             <div class="col-lg-6">
                 <div class="product-card product-card-large">
                     <div class="product-image">
-                        <img src="/assets/images/products/howo-t7h.png" alt="HOWO T7H">
+                        <img src="/assets/img/products/howo-t7h.png" alt="HOWO T7H">
                     </div>
                     <div class="product-body">
                         <div class="product-chip-row">
@@ -44,7 +44,7 @@
                     <div class="col-md-6">
                         <div class="product-card product-card-compact">
                             <div class="product-image">
-                                <img src="/assets/images/products/shacman-x3000.png" alt="SHACMAN X3000">
+                                <img src="/assets/img/products/shacman-x3000.png" alt="SHACMAN X3000">
                             </div>
                             <div class="product-body">
                                 <div class="product-chip-row">
@@ -67,7 +67,7 @@
                     <div class="col-md-6">
                         <div class="product-card product-card-compact">
                             <div class="product-image">
-                                <img src="/assets/images/products/sinotruk-max.png" alt="SINOTRUK MAX">
+                                <img src="/assets/img/products/sinotruk-max.png" alt="SINOTRUK MAX">
                             </div>
                             <div class="product-body">
                                 <div class="product-chip-row">
@@ -90,7 +90,7 @@
                     <div class="col-12">
                         <div class="product-card product-card-compact">
                             <div class="product-image">
-                                <img src="/assets/images/products/foton-auman.png" alt="FOTON AUMAN GTL">
+                                <img src="/assets/img/products/foton-auman.png" alt="FOTON AUMAN GTL">
                             </div>
                             <div class="product-body">
                                 <div class="product-chip-row">

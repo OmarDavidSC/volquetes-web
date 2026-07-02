@@ -56,12 +56,22 @@
                     </a>
                 </li>
             </ul>
-            <a
-                href="https://wa.me/51999999999?text=Hola,%20quiero%20una%20cotización"
-                target="_blank"
-                class="btn btn-primary px-4">
-                Cotizar Ahora
-            </a>
+            <div class="d-flex align-items-center gap-2 ms-3">
+                <button
+                    type="button"
+                    class="btn login-access-btn px-4"
+                    data-bs-toggle="modal"
+                    data-bs-target="#loginModal">
+                    Acceder
+                </button>
+                <a
+                    href="#contacto"
+                    class="btn btn-primary px-4">
+                    Cotizar Ahora
+                </a>
+            </div>
         </div>
     </div>
 </nav>
+
+<?php include __DIR__ . '/partials/login-modal.php'; ?>

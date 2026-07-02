@@ -31,7 +31,7 @@
             <div class="col-lg-6">
                 <div class="hero-image-panel">
                     <div class="hero-image-background"></div>
-                    <img src="/assets/images/hero-volquete.png" alt="Volquete" class="img-fluid hero-truck">
+                    <img src="/assets/img/hero-volquete.png" alt="Volquete" class="img-fluid hero-truck">
                     <div class="hero-image-tag">
                         Volquete premium 6x4
                     </div>

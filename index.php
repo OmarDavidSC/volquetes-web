@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="assets/css/why-us.css">
     <link rel="stylesheet" href="assets/css/quote.css">
     <link rel="stylesheet" href="assets/css/whatsapp-float.css">
+    <link rel="stylesheet" href="assets/css/partials/login-modal.css">
 
 </head>
 

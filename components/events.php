@@ -49,7 +49,7 @@
             <div class="col-lg-7 order-lg-1">
                 <div class="events-gallery">
                     <article class="gallery-card gallery-card-large">
-                        <img src="/assets/images/products/howo-t7h.png" alt="Volquete HOWO T7H">
+                        <img src="/assets/img/products/howo-t7h.png" alt="Volquete HOWO T7H">
                         <div class="gallery-meta">
                             <span>HOWO T7H</span>
                             <h5>Entrega en obra</h5>
@@ -57,21 +57,21 @@
                     </article>
                     <div class="gallery-grid">
                         <article class="gallery-card">
-                            <img src="/assets/images/products/shacman-x3000.png" alt="Volquete Shacman X3000">
+                            <img src="/assets/img/products/shacman-x3000.png" alt="Volquete Shacman X3000">
                             <div class="gallery-meta">
                                 <span>Shacman X3000</span>
                                 <p>Campaña de renovación</p>
                             </div>
                         </article>
                         <article class="gallery-card">
-                            <img src="/assets/images/products/sinotruk-max.png" alt="Volquete Sinotruk Max">
+                            <img src="/assets/img/products/sinotruk-max.png" alt="Volquete Sinotruk Max">
                             <div class="gallery-meta">
                                 <span>Sinotruk Max</span>
                                 <p>Ruta urbana</p>
                             </div>
                         </article>
                         <article class="gallery-card">
-                            <img src="/assets/images/products/foton-auman.png" alt="Volquete Foton Auman">
+                            <img src="/assets/img/products/foton-auman.png" alt="Volquete Foton Auman">
                             <div class="gallery-meta">
                                 <span>Foton Auman</span>
                                 <p>Servicio logístico</p>
