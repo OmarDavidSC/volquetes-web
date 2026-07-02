@@ -1,8 +1,8 @@
 ﻿
 
 .hero {
-    background: #ffffff;
-    color: #111111;
+    background: var(--light);
+    /* color: #111111; */
 }
 
 .hero .container {

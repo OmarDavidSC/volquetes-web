@@ -1,6 +1,6 @@
 .events-section {
     padding: 100px 0;
-    background: linear-gradient(180deg, #f9fbff 0%, #ffffff 100%);
+    background: var(--light);
 }
 
 .events-section .section-header {

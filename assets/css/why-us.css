@@ -1,6 +1,6 @@
 ﻿.why-us-section {
     padding: 100px 0;
-    background: linear-gradient(180deg, #ffffff 0%, #f7f8fb 100%);
+    background: var(--light);
 }
 
 .why-us-section .section-header h2 {

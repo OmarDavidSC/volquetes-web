@@ -1,6 +1,6 @@
 ﻿:root {
-    --primary: #e0e006;
-    --primary-soft: rgba(216, 0, 35, .12);
+    --primary: #fc0;
+    --primary-soft: rgba(227, 217, 219, 0.778);
     --dark: #11151f;
     --dark-soft: #444b5c;
     --gray: #bebfc3;
@@ -93,7 +93,7 @@ p {
     justify-content: center;
     padding: 0.85rem 1.4rem;
     border-radius: 999px;
-    background: var(--primary-soft);
+    background: var(--6B7280);
     color: var(--primary);
     font-size: 0.9rem;
     font-weight: 700;

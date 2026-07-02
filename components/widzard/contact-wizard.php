@@ -85,8 +85,8 @@
             </div>
 
             <div class="wizard-footer">
-                <button class="btn btn-outline-custom" id="wizardBack" disabled>Regresar</button>
-                <button class="btn btn-primary" id="wizardNext" disabled>Siguiente</button>
+                <button class="btn btn-outline-custom" id="wizardBack">Regresar</button>
+                <button class="btn btn-primary" id="wizardNext">Siguiente</button>
             </div>
         </div>
     </div>

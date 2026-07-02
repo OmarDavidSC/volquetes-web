@@ -33,6 +33,7 @@ $isProducts = $page === 'productos';
     <link rel="stylesheet" href="assets/css/whatsapp-float.css">
     <link rel="stylesheet" href="assets/css/partials/login-modal.css">
     <link rel="stylesheet" href="assets/css/partials/productos-page.css">
+    <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/shared-alerts.css">
     <link rel="stylesheet" href="assets/css/widzard.css">
 
