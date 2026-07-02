@@ -7,7 +7,7 @@
                 class="navbar-logo">
             <div class="d-flex flex-column">
                 <span class="brand-title">
-                    VOLQUETES PERÚ
+                    MAQUINAS PERÚ
                 </span>
                 <small class="brand-subtitle">
                     Camiones & Maquinaria Pesada
