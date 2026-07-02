@@ -21,6 +21,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const emailInput = document.getElementById('wizardEmail');
     const messageInput = document.getElementById('wizardMessage');
 
+    const showToast = window.showToast || function (message, type = 'info') {
+        const toastContainer = document.getElementById('sharedAlertToastContainer');
+        if (!toastContainer) return;
+
+        const toast = document.createElement('div');
+        toast.className = `alert-toast ${type}`;
+        toast.textContent = message;
+        toastContainer.appendChild(toast);
+
+        setTimeout(() => {
+            toast.style.animation = 'toastOut 0.3s forwards';
+            toast.addEventListener('animationend', () => toast.remove());
+        }, 2600);
+    };
+
     let currentStep = 1;
     let selectedOption = null;
     let selectedProduct = null;
@@ -111,23 +126,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function showToast(message, type = 'info') {
-        const toastContainer = document.getElementById('sharedAlertToastContainer');
-        if (!toastContainer) return;
-
-        const toast = document.createElement('div');
-        toast.className = `alert-toast ${type}`;
-        toast.textContent = message;
-        toastContainer.appendChild(toast);
-
-        setTimeout(() => {
-            toast.style.animation = 'toastOut 0.3s forwards';
-            toast.addEventListener('animationend', () => toast.remove());
-        }, 2600);
-    }
-
     wizardOptions.forEach((option) => {
-        option.addEventListener('click', () => {
+        option.addEventListener('click', (event) => {
+            event.preventDefault();
             wizardOptions.forEach((btn) => btn.classList.remove('selected'));
             option.classList.add('selected');
             selectedOption = option.dataset.option;
@@ -179,9 +180,22 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    btnSubmit.addEventListener('click', () => {
-        showToast('Solicitud enviada. Gracias.', 'success');
-        setTimeout(() => window.location.reload(), 1600);
+    btnSubmit.addEventListener('click', async () => {
+        const confirmed = await window.requestConfirm({
+            title: 'Confirmar solicitud',
+            message: '¿Deseas enviar tu solicitud ahora?',
+            acceptText: 'Enviar',
+            cancelText: 'Cancelar'
+        });
+
+        if (!confirmed) return;
+
+        window.toggleLoading(true, 'Enviando solicitud...');
+        setTimeout(() => {
+            window.toggleLoading(false);
+            showToast('Solicitud enviada. Gracias.', 'success');
+            setTimeout(() => window.location.reload(), 1600);
+        }, 1400);
     });
 
     setActiveStep(1);

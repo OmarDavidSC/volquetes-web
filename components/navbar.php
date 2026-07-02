@@ -59,9 +59,8 @@
             <div class="d-flex align-items-center gap-2 ms-3">
                 <button
                     type="button"
-                    class="btn login-access-btn px-4"
-                    data-bs-toggle="modal"
-                    data-bs-target="#loginModal">
+                    id="loginAccessButton"
+                    class="btn login-access-btn px-4">
                     Acceder
                 </button>
                 <a

@@ -1,7 +1,6 @@
 <section id="contacto" class="quote-section contact-wizard-section">
     <div class="container">
         <div class="wizard-card">
-            <?php require __DIR__ . '/../shared/alerts/alert-toast.php'; ?>
             <div class="wizard-header">
                 <div>
                     <span class="section-badge">COTACTATE CON NOSOTROS</span>
@@ -36,9 +35,9 @@
                     <div class="wizard-panel active" data-panel="1">
                         <p>Elige qué necesitas.</p>
                         <div class="wizard-options">
-                            <button class="wizard-option" data-option="recuperar">Recuperar contraseña</button>
-                            <button class="wizard-option" data-option="soporte">Dar soporte</button>
-                            <button class="wizard-option" data-option="cotizar">Cotizar</button>
+                            <button type="button" class="wizard-option" data-option="recuperar">Recuperar contraseña</button>
+                            <button type="button" class="wizard-option" data-option="soporte">Dar soporte</button>
+                            <button type="button" class="wizard-option" data-option="cotizar">Cotizar</button>
                         </div>
                     </div>
 

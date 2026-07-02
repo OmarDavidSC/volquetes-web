@@ -20,7 +20,7 @@
 }
 
 .alert-toast.success {
-    background: #16a34a;
+    background: var(--primary);
 }
 
 .alert-toast.error {
@@ -28,7 +28,82 @@
 }
 
 .alert-toast.info {
-    background: #0ea5e9;
+    background: var(--dark);
+}
+
+.alert-confirm-overlay,
+.alert-loading-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.6);
+    display: grid;
+    place-items: center;
+    z-index: 1300;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+.alert-confirm-overlay.active,
+.alert-loading-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.alert-confirm-card,
+.alert-loading-card {
+    width: min(520px, calc(100% - 32px));
+    background: var(--surface-card);
+    border-radius: 28px;
+    padding: 28px;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.alert-confirm-card h4 {
+    margin-bottom: 16px;
+    color: var(--text-primary);
+}
+
+.alert-confirm-card p,
+.alert-loading-card p {
+    margin-bottom: 24px;
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+.alert-confirm-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.alert-loading-spinner {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 8px solid rgba(216, 0, 35, 0.15);
+    border-top-color: var(--primary);
+    animation: spin 1s linear infinite;
+    margin: 0 auto 16px;
+}
+
+.btn-outline-custom {
+    border-color: rgba(255, 255, 255, 0.35);
+    color: var(--text-primary);
+    background: transparent;
+}
+
+.btn-outline-custom:hover,
+.btn-outline-custom:focus {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes toastIn {

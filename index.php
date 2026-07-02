@@ -40,6 +40,7 @@ $isProducts = $page === 'productos';
 
 <body>
 
+    <?php require 'components/shared/alerts/alert-toast.php'; ?>
     <?php require 'components/navbar.php'; ?>
 
     <?php if ($isProducts): ?>
