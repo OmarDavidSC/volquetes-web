@@ -33,6 +33,8 @@ $isProducts = $page === 'productos';
     <link rel="stylesheet" href="assets/css/whatsapp-float.css">
     <link rel="stylesheet" href="assets/css/partials/login-modal.css">
     <link rel="stylesheet" href="assets/css/partials/productos-page.css">
+    <link rel="stylesheet" href="assets/css/shared-alerts.css">
+    <link rel="stylesheet" href="assets/css/widzard.css">
 
 </head>
 
@@ -60,6 +62,7 @@ $isProducts = $page === 'productos';
 
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/widzard.js"></script>
 
 </body>
 
