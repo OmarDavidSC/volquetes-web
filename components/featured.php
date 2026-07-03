@@ -1,4 +1,4 @@
-<section class="featured-section" id="productos-destacados">
+<section class="featured-section" id="productos">
     <div class="container">
         <div class="section-header text-center">
             <span class="section-badge">

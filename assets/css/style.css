@@ -200,8 +200,6 @@ p {
     padding: 0.55rem 1rem;
     background: rgba(224, 224, 6, 0.16);
     color: var(--primary);
-
-    border-radius: 0;
     clip-path: polygon(10px 0,
             calc(100% - 10px) 0,
             100% 10px,
@@ -210,7 +208,6 @@ p {
             10px 100%,
             0 calc(100% - 10px),
             0 10px);
-
     font-size: 0.85rem;
     font-weight: 700;
 }
@@ -220,7 +217,6 @@ p {
     padding: 0.45rem 0.85rem;
     background: rgba(17, 24, 39, 0.05);
     color: var(--dark-soft);
-
     border-radius: 0;
     clip-path: polygon(8px 0,
             calc(100% - 8px) 0,
@@ -230,7 +226,6 @@ p {
             8px 100%,
             0 calc(100% - 8px),
             0 8px);
-
     font-size: 0.85rem;
     font-weight: 600;
 }
@@ -246,7 +241,6 @@ p {
     align-items: center;
     justify-content: center;
     padding: 0.85rem 1rem;
-
     border-radius: 0;
     clip-path: polygon(12px 0,
             calc(100% - 12px) 0,
@@ -256,7 +250,6 @@ p {
             12px 100%,
             0 calc(100% - 12px),
             0 12px);
-
     background: rgba(216, 0, 35, 0.08);
     color: var(--dark);
     font-weight: 700;
