@@ -23,7 +23,7 @@
                         <label for="loginPassword" class="form-label">Contraseña</label>
                         <input type="password" class="form-control" id="loginPassword" placeholder="Ingresa tu contraseña">
                     </div>
-                    <button type="submit" class="btn btn-primary w-100 login-submit-btn">Entrar</button>
+                    <button type="submit" class="btn btn-primary w-100  ">Entrar</button>
                     <p class="login-helper-text">¿Olvidaste tu contraseña? Contáctanos</p>
                 </form>
             </div>
