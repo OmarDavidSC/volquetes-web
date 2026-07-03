@@ -44,16 +44,16 @@
                 <div class="footer-card">
                     <h5 class="footer-title"> Síguenos </h5>
                     <div class="footer-social">
-                        <a href="#">
+                        <a href="https://www.facebook.com/share/1A9KGvRoLm/?mibextid=wwXIfr" target="_blank">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#">
+                        <a href="">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://www.tiktok.com/@maquinasperu.oficial?_r=1&_t=ZS-97j7bAFU7MH" target="_blank">
                             <i class="fab fa-tiktok"></i>
                         </a>
-                        <a href="#">
+                        <a href="">
                             <i class="fab fa-youtube"></i>
                         </a>
                     </div>
