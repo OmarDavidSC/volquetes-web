@@ -3,7 +3,7 @@
         <div class="row g-4">
             <div class="col-lg-4">
                 <div class="footer-card">
-                    <div class="footer-logo"> VOLQUETES PERÚ </div>
+                    <div class="footer-logo"> MAQUINAS PERÚ </div>
                     <p class="footer-description">
                         Venta de volquetes, camiones y maquinaria pesada
                         para construcción, minería y transporte a nivel nacional.

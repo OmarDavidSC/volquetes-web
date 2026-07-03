@@ -1,6 +1,4 @@
-﻿
-
-.hero {
+﻿.hero {
     background: var(--light);
     /* color: #111111; */
 }
@@ -28,6 +26,7 @@
     line-height: 1.04;
     color: #111111;
     margin-bottom: 1.4rem;
+    max-width: 560px;
 }
 
 .hero-title span {
@@ -103,8 +102,21 @@
 
 .hero-image-panel {
     position: relative;
-    max-width: 540px;
+    max-width: 900px;
+    width: 100%;
     margin: auto;
+    border-radius: 38px;
+    overflow: hidden;
+}
+
+.hero-image-panel .carousel-item {
+    position: relative;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.9);
 }
 
 .hero-image-background {
@@ -118,6 +130,10 @@
 .hero-truck {
     position: relative;
     max-width: 100%;
+    width: 100%;
+    max-height: 420px;
+    height: auto;
+    object-fit: contain;
     border-radius: 38px;
     box-shadow: 0 35px 90px rgba(15, 23, 42, 0.08);
     transform: translateY(0);
@@ -140,10 +156,45 @@
     font-weight: 700;
 }
 
+.hero-carousel-indicators {
+    position: relative;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.hero-carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(17, 17, 17, 0.22);
+    opacity: 0.75;
+    transition: transform 0.25s ease, opacity 0.25s ease, background 0.25s ease;
+}
+
+.hero-carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    background: #f4c542;
+    opacity: 1;
+}
+
+.hero-carousel-indicators button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(244, 197, 66, 0.22);
+}
+
 @media (max-width: 992px) {
     .hero {
         min-height: auto;
         padding: 5rem 0;
+    }
+
+    .hero .row {
+        align-items: flex-start;
+        margin-top: 0.5rem;
     }
 
     .hero-title {
@@ -166,12 +217,54 @@
 }
 
 @media (max-width: 576px) {
+    .hero {
+        padding: 4rem 0 3rem;
+    }
+
+    .hero-badge {
+        font-size: 0.82rem;
+        padding: 0.65rem 1rem;
+        margin-bottom: 1rem;
+        display: inline-block;
+        white-space: normal;
+    }
+
     .hero-title {
         font-size: 2.2rem;
+    }
+
+    .hero-description,
+    .hero-actions,
+    .hero-features {
+        text-align: center;
     }
 
     .hero-actions,
     .hero-features {
         gap: 0.75rem;
     }
+
+    .hero-image-panel {
+        max-width: 100%;
+    }
+
+    .hero-image-panel .carousel-item {
+        min-height: 300px;
+    }
+
+    .hero-image-tag {
+        left: 16px;
+        bottom: 16px;
+        padding: 0.75rem 1rem;
+        font-size: 0.85rem;
+    }
+}
+
+.hero-title {
+    font-size: 2.2rem;
+}
+
+.hero-actions,
+.hero-features {
+    gap: 0.75rem;
 }
