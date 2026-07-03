@@ -4,7 +4,7 @@
             <span class="section-badge">¿POR QUÉ ELEGIRNOS?</span>
             <h2>El respaldo que tu operación necesita</h2>
             <p>
-                Combina tecnología, servicio y logística para mantener tus proyectos 
+                Combina tecnología, servicio y logística para mantener tus proyectos
                 en movimiento con total confianza.
             </p>
         </div>

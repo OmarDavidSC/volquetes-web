@@ -1,6 +1,6 @@
 <section id="eventos" class="events-section">
     <div class="container">
-        <div class="section-header text-center mb-5">
+        <div class="section-header text-center">
             <span class="section-badge">NUEVOS VOLQUETES</span>
             <h2 class="section-title">Últimas fotos de nuestras campañas</h2>
             <p class="section-description">
@@ -9,7 +9,7 @@
         </div>
 
         <div class="row gy-4">
-            <div class="col-lg-5 order-lg-2">
+            <!-- <div class="col-lg-5 order-lg-2">
                 <div class="events-summary-card">
                     <span class="events-label">Galería activa</span>
                     <h3>Campañas de entrega y renovación</h3>
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="col-lg-7 order-lg-1">
                 <div class="events-gallery">

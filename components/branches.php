@@ -18,7 +18,7 @@
             ];
             foreach ($branches as $branch): ?>
                 <div class="col-lg-4 col-md-6">
-                    <div class="branch-card branch-card-minimal">
+                    <div class="branch-card">
                         <div class="branch-card-top">
                             <div class="branch-icon">
                                 <i class="fa-solid fa-location-dot"></i>

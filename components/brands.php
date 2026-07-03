@@ -4,14 +4,14 @@
             <span class="section-badge">MARCAS LÍDERES</span>
             <h2>Trabajamos con las mejores marcas</h2>
             <p>
-                Contamos con aliados estratégicos que respaldan nuestra oferta 
+                Contamos con aliados estratégicos que respaldan nuestra oferta
                 de volquetes y camiones para proyectos exigentes.
             </p>
         </div>
 
         <div class="row g-4 mt-4 align-items-stretch">
             <div class="col-md-6 col-lg-3">
-                <div class="brand-card brand-card-highlight">
+                <div class="brand-card">
                     <div class="brand-logo">
                         <img src="assets/img/brands/howo.png" alt="HOWO">
                     </div>

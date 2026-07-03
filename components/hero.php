@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-center min-vh-100 gy-5">
             <div class="col-lg-6">
-                <span class="hero-badge">LÍDERES EN CAMIONES Y VOLQUETES</span>
+                <span class="section-badge">LÍDERES EN CAMIONES Y VOLQUETES</span>
                 <h1 class="hero-title">
                     Transporte pesado
                     <span>con estilo profesional</span>
@@ -16,15 +16,15 @@
                     <a href="index.php#contacto" class="btn btn-primary hero-btn-primary">
                         Cotiza ahora
                     </a>
-                    <a href="?page=productos" class="btn-outline-custom">
+                    <a href="?page=productos" class="btn btn-outline-custom">
                         Ver catálogo
                     </a>
                 </div>
 
                 <div class="hero-features">
-                    <span>Entrega nacional</span>
-                    <span>Financiamiento disponible</span>
-                    <span>Soporte especializado</span>
+                    <span class="login-access-btn">Entrega nacional</span>
+                    <span class="login-access-btn">Financiamiento disponible</span>
+                    <span class="login-access-btn">Soporte especializado</span>
                 </div>
             </div>
 

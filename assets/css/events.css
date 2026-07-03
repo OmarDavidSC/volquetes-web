@@ -1,9 +1,9 @@
 .events-section {
-    padding: 100px 0;
+    padding: 50px 0;
     background: var(--light);
 }
 
-.events-section .section-header {
+/* .events-section .section-header {
     max-width: 700px;
     margin: 0 auto 3rem;
 }
@@ -18,7 +18,7 @@
     line-height: 1.8;
     max-width: 600px;
     margin: 0 auto;
-}
+} */
 
 .events-summary-card {
     background: #ffffff;
@@ -177,6 +177,7 @@
 }
 
 @media (max-width: 991px) {
+
     .events-panel,
     .event-card {
         padding: 1.8rem 1.3rem;
@@ -187,9 +188,11 @@
     .events-section {
         padding: 70px 0;
     }
+
     .events-section .section-title {
         font-size: 2.2rem;
     }
+
     .events-top {
         flex-direction: column;
         align-items: flex-start;

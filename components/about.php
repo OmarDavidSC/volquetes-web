@@ -1,18 +1,17 @@
 <section id="nosotros" class="about-section">
-    <div class="container about-inner">
-        <div class="about-top">
-            <div class="about-copy">
-                <span class="section-badge">NOSOTROS</span>
-                <h2>Operamos la carga pesada con enfoque profesional, seguridad y cumplimiento.</h2>
-                <p class="about-intro">Volquetes Perú es un equipo operativo dedicado a entregar soluciones de transporte, obras y logística con claridad, velocidad y respaldo técnico en cada etapa del proyecto.</p>
-            </div>
+    <div class="container">
+        <div class="section-header text-center">
+            <span class="section-badge">NOSOTROS</span>
+            <h2 class="section-title">Nuestra Historia</h2>
+            <p class="section-description">Cómo nos convertimos en un socio sólido para la carga pesada.</p>
         </div>
 
+
         <div class="about-timeline">
-            <div class="timeline-header">
+            <!-- <div class="timeline-header">
                 <h3>Nuestra historia</h3>
                 <p>Cómo nos convertimos en un socio sólido para la carga pesada.</p>
-            </div>
+            </div> -->
             <div class="timeline-track horizontal">
                 <div class="timeline-line"></div>
                 <article class="timeline-step active">
@@ -38,4 +37,4 @@
             </div>
         </div>
     </div>
-</section> 
+</section>

@@ -21,40 +21,8 @@
     --text-secondary: #6B7280;
 }
 
-* {
-    box-sizing: border-box;
-}
 
-html {
-    scroll-behavior: smooth;
-}
 
-body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background: #f3f5f9;
-    color: var(--dark);
-    line-height: 1.7;
-}
-
-main {
-    padding-top: 105px;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
-
-a {
-    color: inherit;
-}
-
-button,
-input,
-textarea {
-    font-family: inherit;
-}
 
 h1,
 h2,
@@ -90,70 +58,85 @@ p {
 .section-badge {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
     padding: 0.85rem 1.4rem;
-    border-radius: 999px;
-    background: var(--6B7280);
-    color: var(--primary);
-    font-size: 0.9rem;
+    background: #fef3b2;
+    border: 1px solid #f4c542;
+    color: #111111;
+    font-size: 0.95rem;
     font-weight: 700;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
+    margin-bottom: 1.4rem;
+
+    /* Forma tipo Transformers */
+    border-radius: 0;
+    clip-path: polygon(12px 0,
+            calc(100% - 16px) 0,
+            100% 12px,
+            100% calc(100% - 12px),
+            calc(100% - 12px) 100%,
+            12px 100%,
+            0 calc(100% - 12px),
+            0 12px);
 }
 
-.btn-primary {
-    background: var(--primary);
-    color: #151111;
+/* botones*/
+.btn-primary,
+.hero-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 34px;
+    background: #ffcc00;
+    color: #111;
     border: none;
-    border-radius: 999px;
-    padding: 0.95rem 2.2rem;
+    border-radius: 8px;
     font-weight: 700;
-    transition: all 0.25s ease;
-    box-shadow: 0 20px 35px rgba(216, 0, 35, 0.18);
+    font-size: 1rem;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    clip-path: polygon(0 0,
+            calc(100% - 14px) 0,
+            100% 14px,
+            100% 100%,
+            14px 100%,
+            0 calc(100% - 14px));
+    transition: .3s;
+    box-shadow: 0 10px 25px rgba(255, 204, 0, .35);
 }
 
 .btn-primary:hover,
-.btn-primary:focus {
-    background: #b28188;
-    transform: translateY(-1px);
+.hero-btn-primary:hover {
+    transform: translateY(-4px);
+    background: #f2c200;
+    box-shadow: 0 18px 35px rgba(255, 204, 0, .45);
 }
 
 .btn-outline-custom {
-    color: var(--primary);
-    border: 2px solid rgba(216, 0, 35, 0.18);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 34px;
+    color: #222;
     background: transparent;
-    border-radius: 999px;
-    padding: 0.95rem 2.2rem;
+    border: 2px solid #ffcc00;
     font-weight: 700;
-    transition: 0.25s ease;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    border-radius: 8px;
+    clip-path: polygon(0 0,
+            calc(100% - 14px) 0,
+            100% 14px,
+            100% 100%,
+            14px 100%,
+            0 calc(100% - 14px));
+
+    transition: .3s;
 }
 
-.btn-outline-custom:hover,
-.btn-outline-custom:focus {
-    background: var(--primary);
-    color: #ffffff;
-    transform: translateY(-1px);
-}
-
-.card,
-.hero-stat,
-.product-card,
-.service-card,
-.why-card,
-.brand-card,
-.branch-card,
-.quote-card,
-.footer-card {
-    background: var(--surface);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-}
-
-.section-divider {
-    width: 80px;
-    height: 4px;
-    margin: 1.5rem auto 0;
-    border-radius: 999px;
-    background: var(--primary);
+.btn-outline-custom:hover {
+    background: #ffcc00 !important;
+    color: #111;
+    transform: translateY(-4px);
 }
 
 @media (max-width: 992px) {
@@ -170,4 +153,112 @@ p {
     .section-header h2 {
         font-size: 1.85rem;
     }
+}
+
+.login-access-btn {
+    position: relative;
+    border: 1px solid var(--primary);
+    color: var(--dark);
+    background: transparent;
+    border-radius: 0;
+    clip-path: polygon(12px 0,
+            calc(100% - 20px) 0,
+            100% 14px,
+            100% calc(100% - 14px),
+            calc(100% - 12px) 100%,
+            20px 100%,
+            0 calc(100% - 14px),
+            0 14px);
+
+    padding: 0.75rem 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    transition: all .25s ease;
+    box-shadow: 0 8px 20px rgba(224, 224, 6, 0.14);
+}
+
+.login-access-btn::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border: 1px solid rgba(224, 224, 6, .18);
+    clip-path: inherit;
+    pointer-events: none;
+}
+
+.login-access-btn:hover,
+.login-access-btn:focus {
+    background: var(--primary);
+    color: var(--dark);
+    transform: translateY(-2px) scale(1.01);
+    box-shadow: 0 16px 30px rgba(224, 224, 6, .24);
+}
+
+/*productos badges*/
+.product-brand {
+    display: inline-flex;
+    padding: 0.55rem 1rem;
+    background: rgba(224, 224, 6, 0.16);
+    color: var(--primary);
+
+    border-radius: 0;
+    clip-path: polygon(10px 0,
+            calc(100% - 10px) 0,
+            100% 10px,
+            100% calc(100% - 10px),
+            calc(100% - 10px) 100%,
+            10px 100%,
+            0 calc(100% - 10px),
+            0 10px);
+
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.product-tag {
+    display: inline-flex;
+    padding: 0.45rem 0.85rem;
+    background: rgba(17, 24, 39, 0.05);
+    color: var(--dark-soft);
+
+    border-radius: 0;
+    clip-path: polygon(8px 0,
+            calc(100% - 8px) 0,
+            100% 8px,
+            100% calc(100% - 8px),
+            calc(100% - 8px) 100%,
+            8px 100%,
+            0 calc(100% - 8px),
+            0 8px);
+
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.product-meta {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+}
+
+.product-meta span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.85rem 1rem;
+
+    border-radius: 0;
+    clip-path: polygon(12px 0,
+            calc(100% - 12px) 0,
+            100% 12px,
+            100% calc(100% - 12px),
+            calc(100% - 12px) 100%,
+            12px 100%,
+            0 calc(100% - 12px),
+            0 12px);
+
+    background: rgba(216, 0, 35, 0.08);
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 0.92rem;
 }

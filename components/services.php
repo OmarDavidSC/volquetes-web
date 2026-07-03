@@ -11,7 +11,7 @@
 
         <div class="row g-4 mt-4">
             <div class="col-lg-6">
-                <div class="service-card service-card-soft">
+                <div class="service-card">
                     <div class="service-icon">
                         <i class="fa-solid fa-truck-fast"></i>
                     </div>
@@ -24,7 +24,7 @@
             </div>
 
             <div class="col-lg-6">
-                <div class="service-card service-card-soft">
+                <div class="service-card">
                     <div class="service-icon">
                         <i class="fa-solid fa-hand-holding-dollar"></i>
                     </div>
@@ -37,7 +37,7 @@
             </div>
 
             <div class="col-lg-6">
-                <div class="service-card service-card-soft">
+                <div class="service-card">
                     <div class="service-icon">
                         <i class="fa-solid fa-screwdriver-wrench"></i>
                     </div>
@@ -50,7 +50,7 @@
             </div>
 
             <div class="col-lg-6">
-                <div class="service-card service-card-soft">
+                <div class="service-card">
                     <div class="service-icon">
                         <i class="fa-solid fa-boxes-stacked"></i>
                     </div>

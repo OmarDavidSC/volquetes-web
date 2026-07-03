@@ -6,7 +6,7 @@
             </span>
             <h2>Encuentra el vehículo ideal para tu operación</h2>
             <p>
-                Explora volquetes y tractocamiones con desempeño probado, 
+                Explora volquetes y tractocamiones con desempeño probado,
                 capacidad superior y soporte técnico especializado.
             </p>
         </div>
@@ -24,7 +24,7 @@
                         </div>
                         <h4>HOWO T7H</h4>
                         <p class="product-description">
-                            El modelo preferido para obra pesada: alta potencia, 
+                            El modelo preferido para obra pesada: alta potencia,
                             carga de 20m³ y rendimiento constante en terreno difícil.
                         </p>
                         <div class="product-meta">
@@ -32,9 +32,11 @@
                             <span>20m³</span>
                             <span>Manual</span>
                         </div>
-                        <a href="#" class="btn btn-primary product-cta">
-                            Ver Detalle
-                        </a>
+                        <button type="button" class="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#productDetailModal">
+                            Ver detalle
+                        </button>
                     </div>
                 </div>
             </div>
@@ -57,9 +59,11 @@
                                     <span>22m³</span>
                                     <span>Minería</span>
                                 </div>
-                                <a href="#" class="btn btn-outline-custom product-cta">
-                                    Ver Detalle
-                                </a>
+                                <button type="button" class="btn btn-outline-custom"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#productDetailModal">
+                                    Ver detalle
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -80,9 +84,11 @@
                                     <span>18m³</span>
                                     <span>Urbano</span>
                                 </div>
-                                <a href="#" class="btn btn-outline-custom product-cta">
-                                    Ver Detalle
-                                </a>
+                                <button type="button" class="btn btn-outline-custom"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#productDetailModal">
+                                    Ver detalle
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -103,9 +109,11 @@
                                     <span>Versátil</span>
                                     <span>Entrega Rápida</span>
                                 </div>
-                                <a href="#" class="btn btn-outline-custom product-cta">
-                                    Ver Detalle
-                                </a>
+                                <button type="button" class="btn btn-outline-custom"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#productDetailModal">
+                                    Ver detalle
+                                </button>
                             </div>
                         </div>
                     </div>

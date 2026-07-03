@@ -28,12 +28,12 @@
                     </div>
                     <div class="catalog-body">
                         <div class="catalog-labels">
-                            <span class="catalog-brand">HOWO</span>
-                            <span class="catalog-tag">Volquete 6x4</span>
+                            <span class="product-brand">HOWO</span>
+                            <span class="product-tag">Volquete 6x4</span>
                         </div>
                         <h3>HOWO T7H</h3>
                         <p>Máquina potente para obra pesada, con excelente capacidad de carga y seguridad en terreno difícil.</p>
-                        <div class="catalog-specs">
+                        <div class="product-meta">
                             <span>371 HP</span>
                             <span>20 m³</span>
                             <span>Manual</span>
@@ -63,12 +63,12 @@
                     </div>
                     <div class="catalog-body">
                         <div class="catalog-labels">
-                            <span class="catalog-brand">SHACMAN</span>
-                            <span class="catalog-tag">Minero</span>
+                            <span class="product-brand">SHACMAN</span>
+                            <span class="product-tag">Minero</span>
                         </div>
                         <h3>SHACMAN X3000</h3>
                         <p>Tractocamión diseñado para altas exigencias, ideal para rutas mineras y transporte de gran tonelaje.</p>
-                        <div class="catalog-specs">
+                        <div class="product-meta">
                             <span>430 HP</span>
                             <span>22 m³</span>
                             <span>Minero</span>
@@ -98,12 +98,12 @@
                     </div>
                     <div class="catalog-body">
                         <div class="catalog-labels">
-                            <span class="catalog-brand">SINOTRUK</span>
-                            <span class="catalog-tag">Alta eficiencia</span>
+                            <span class="product-brand">SINOTRUK</span>
+                            <span class="product-tag">Alta eficiencia</span>
                         </div>
                         <h3>HOWO MAX</h3>
                         <p>Modelo versátil para rutas urbanas y logísticas con gran maniobrabilidad y comodidad.</p>
-                        <div class="catalog-specs">
+                        <div class="product-meta">
                             <span>400 HP</span>
                             <span>18 m³</span>
                             <span>Urbano</span>
@@ -133,12 +133,12 @@
                     </div>
                     <div class="catalog-body">
                         <div class="catalog-labels">
-                            <span class="catalog-brand">FOTON</span>
-                            <span class="catalog-tag">Logístico</span>
+                            <span class="product-brand">FOTON</span>
+                            <span class="product-tag">Logístico</span>
                         </div>
                         <h3>AUMAN GTL</h3>
                         <p>Equipo confiable para transporte ligero y logístico con alto rendimiento y bajo mantenimiento.</p>
-                        <div class="catalog-specs">
+                        <div class="product-meta">
                             <span>380 HP</span>
                             <span>Versátil</span>
                             <span>Entrega Rápida</span>

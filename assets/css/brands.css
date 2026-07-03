@@ -1,5 +1,5 @@
 ﻿.brands-section {
-    padding: 100px 0;
+    padding: 50px 0;
     background: var(--light);
 }
 
@@ -8,19 +8,26 @@
     padding: 2rem;
     min-height: 260px;
     text-align: center;
-    border-radius: 28px;
+
+    /* Forma tipo Transformers */
+    border-radius: 0;
+    clip-path: polygon(18px 0,
+            calc(100% - 22px) 0,
+            100% 22px,
+            100% calc(100% - 18px),
+            calc(100% - 18px) 100%,
+            22px 100%,
+            0 calc(100% - 22px),
+            0 18px);
+
     border: 1px solid #edf2f7;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
 }
 
-.brand-card-highlight {
-    background: linear-gradient(180deg, #ffffff 0%, #fdf2f4 100%);
-    border-color: rgba(216, 0, 35, 0.2);
-}
 
 .brand-card:hover {
     transform: translateY(-8px);
