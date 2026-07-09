@@ -58,6 +58,18 @@
                         </a>
                     </div>
                 </div>
+                <div class="footer-card">
+                    <h5 class="footer-title">Acceso</h5>
+
+                    <a href="https://sistema.maquinasperu.com"
+                        target="_blank"
+                        class="footer-system-btn">
+
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        Ingresar al Sistema
+
+                    </a>
+                </div>
             </div>
         </div>
         <div class="footer-bottom">

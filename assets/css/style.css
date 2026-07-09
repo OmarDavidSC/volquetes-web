@@ -204,7 +204,7 @@ p {
 .product-tag {
     display: inline-flex;
     padding: 0.45rem 0.85rem;
-    background: rgba(17, 24, 39, 0.05);
+    background: rgba(30, 158, 244, 0.16);
     color: var(--dark-soft);
     border-radius: 0;
     clip-path: polygon(0 0,
@@ -235,7 +235,7 @@ p {
             100% 100%,
             14px 100%,
             0 calc(100% - 14px));
-    background: rgba(216, 0, 35, 0.08);
+    background: rgba(30, 158, 244, 0.16);
     color: var(--dark);
     font-weight: 700;
     font-size: 0.92rem;
