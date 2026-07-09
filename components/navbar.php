@@ -1,10 +1,7 @@
-<nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+<nav class="navbar navbar-expand-xl bg-white shadow-sm fixed-top">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2" href="index.php">
-            <img
-                src="assets/img/logo.png"
-                alt="Logo"
-                class="navbar-logo">
+            <img src="assets/img/logo.png" alt="Logo" class="navbar-logo">
             <div class="d-flex flex-column">
                 <span class="brand-title">
                     MAQUINAS PERÚ
@@ -27,46 +24,54 @@
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="index.php">
-                        Inicio
+                        INICIO
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="?page=productos">
-                        Productos
+                        PRODUCTOS
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php#servicios">
-                        Servicios
+                        SERVICIOS
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php#red-ventas">
-                        Red de Ventas
+                        UBICANOS
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php#nosotros">
-                        Nosotros
+                        NOSOTROS
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php#contacto">
-                        Contacto
+                        CONTACTO
                     </a>
                 </li>
             </ul>
             <div class="d-flex align-items-center gap-2 ms-3">
-                <button
+                <!-- <button
                     type="button"
                     id="loginAccessButton"
                     class="btn login-access-btn px-4">
                     Acceder
+                </button> -->
+                <button class="login-access-btn" id="loginAccessButton">
+                    <svg class="btn-border" viewBox="0 0 300 60" preserveAspectRatio="none">
+                        <polygon
+                            points="0,0 286,0 300,14 300,60 14,60 0,46" />
+                    </svg>
+
+                    <span>ACCEDER</span>
                 </button>
                 <a
                     href="#contacto"
                     class="btn btn-primary px-4">
-                    Cotizar Ahora
+                    COTIZAR!
                 </a>
             </div>
         </div>

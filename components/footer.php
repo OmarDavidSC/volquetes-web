@@ -64,11 +64,11 @@
             <div class="row">
                 <div class="col-md-6">
                     <p>
-                        © <?= date('Y') ?> Volquetes Perú
+                        © <?= date('Y') ?> MAQUINAS PERÚ
                     </p>
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <p> Desarrollado por Omar </p>
+                    <p> Desarrollado y Diseñado por Omar Coronado </p>
                 </div>
             </div>
         </div>

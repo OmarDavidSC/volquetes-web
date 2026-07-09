@@ -1,6 +1,6 @@
     <section class="hero">
         <div class="container">
-            <div class="row align-items-center min-vh-100 gy-5">
+            <div class="row align-items-center hero-row gy-5">
                 <div class="col-lg-6">
                     <span class="section-badge">LÍDERES EN CAMIONES Y VOLQUETES</span>
                     <h1 class="hero-title">
@@ -20,11 +20,21 @@
                             Ver catálogo
                         </a>
                     </div>
-
                     <div class="hero-features">
-                        <span class="login-access-btn">Entrega nacional</span>
-                        <span class="login-access-btn">Financiamiento disponible</span>
-                        <span class="login-access-btn">Soporte especializado</span>
+                        <div class="feature-card">
+                            <i class="fas fa-truck"></i>
+                            <span>Entrega nacional</span>
+                        </div>
+
+                        <div class="feature-card">
+                            <i class="fas fa-hand-holding-dollar"></i>
+                            <span>Financiamiento disponible</span>
+                        </div>
+
+                        <div class="feature-card">
+                            <i class="fas fa-headset"></i>
+                            <span>Soporte especializado</span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6">

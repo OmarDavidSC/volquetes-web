@@ -1,35 +1,6 @@
 .productos-page {
-    padding: 100px 0;
-    background: linear-gradient(180deg, #f8fbff 0%, #eef2f7 100%);
-}
-
-.productos-hero {
-    max-width: 780px;
-    margin: auto;
-}
-
-.productos-hero .section-badge {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem 1.4rem;
-    border-radius: 999px;
-    background: rgba(224, 224, 6, 0.16);
-    color: var(--primary);
-    font-size: 0.9rem;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-}
-
-.productos-hero h1 {
-    font-size: 3rem;
-    margin: 1rem 0 0.75rem;
-    color: var(--dark);
-}
-
-.productos-hero p {
-    font-size: 1.05rem;
-    color: var(--text-secondary);
+    padding: 120px 0;
+    background: var(--light);
 }
 
 .productos-toolbar {
@@ -57,14 +28,12 @@
 .filter-pills .pill {
     border: none;
     border-radius: 0;
-    clip-path: polygon(12px 0,
-            calc(100% - 12px) 0,
-            100% 12px,
-            100% calc(100% - 12px),
-            calc(100% - 12px) 100%,
-            12px 100%,
-            0 calc(100% - 12px),
-            0 12px);
+    clip-path: polygon(0 0,
+            calc(100% - 14px) 0,
+            100% 14px,
+            100% 100%,
+            14px 100%,
+            0 calc(100% - 14px));
 
     padding: 0.8rem 1rem;
     background: rgba(17, 21, 31, 0.05);
@@ -102,17 +71,55 @@
 }
 
 .catalog-image {
-    background: linear-gradient(180deg, rgba(224, 224, 6, 0.12), rgba(255, 255, 255, 0.8));
+    padding: 25px;
+    background: linear-gradient(180deg,
+            rgba(224, 224, 6, .10),
+            #fff);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 2.2rem;
 }
 
-.catalog-image img {
-    max-width: 100%;
-    max-height: 230px;
-    transition: transform 0.4s ease;
+.product-main-image {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    transition: .35s;
+}
+
+.product-main-image:hover {
+    transform: scale(1.04);
+}
+
+.product-thumbs {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+}
+
+.thumb {
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    background: var(--light);
+    padding: 4px;
+    transition: .25s;
+}
+
+.thumb:hover {
+    transform: translateY(-4px);
+    border-color: var(--primary);
+}
+
+.thumb.active {
+    border-color: var(--primary);
+    box-shadow: 0 8px 20px rgba(224, 224, 6, .25);
+
 }
 
 .catalog-card:hover .catalog-image img {
@@ -172,17 +179,83 @@
 
 .product-detail-modal__media {
     min-height: 100%;
-    background: linear-gradient(135deg, rgba(224, 224, 6, 0.18), rgba(243, 245, 249, 0.9));
+    background: linear-gradient(135deg,
+            rgba(224, 224, 6, .18),
+            rgba(243, 245, 249, .95));
+
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
     padding: 2rem;
 }
 
-.product-detail-modal__media img {
-    max-width: 100%;
-    max-height: 380px;
+.product-detail-main-image {
+
+    width: 100%;
+    height: 350px;
+
     object-fit: contain;
+
+    transition: .3s;
+
+}
+
+.product-detail-main-image:hover {
+
+    transform: scale(1.03);
+
+}
+
+.product-detail-thumbs {
+
+    margin-top: 25px;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 14px;
+
+    flex-wrap: wrap;
+
+}
+
+.product-detail-thumb {
+
+    width: 75px;
+    height: 75px;
+
+    object-fit: cover;
+
+    background: #fff;
+
+    border-radius: 14px;
+
+    border: 2px solid transparent;
+
+    padding: 4px;
+
+    cursor: pointer;
+
+    transition: .25s;
+
+}
+
+.product-detail-thumb:hover {
+
+    border-color: var(--primary);
+
+    transform: translateY(-4px);
+
+}
+
+.product-detail-thumb.active {
+
+    border-color: var(--primary);
+
+    box-shadow: 0 10px 20px rgba(224, 224, 6, .25);
+
 }
 
 .product-detail-modal__content {

@@ -11,11 +11,15 @@
 }
 
 .navbar-logo {
-    width: 56px;
-    height: 56px;
-    border-radius: 16px;
-    object-fit: cover;
-    border: 1px solid rgba(0, 0, 0, 0.06);
+    width: 62px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
 }
 
 .brand-title {
@@ -32,12 +36,12 @@
 }
 
 .navbar-nav {
-    gap: 10px;
+    gap: 4px;
 }
 
 .nav-link {
     color: var(--dark-soft) !important;
-    padding: 0.75rem 1rem !important;
+    padding: .75rem .75rem !important;
     font-weight: 600;
     transition: color 0.25s ease;
 }
@@ -47,8 +51,14 @@
     color: var(--primary) !important;
 }
 
-.btn-primary {
-    padding: 0.85rem 1.9rem;
+.login-access-btn {
+    padding: .65rem 1rem;
+    font-size: .9rem;
+}
+
+.navbar .btn-primary {
+    padding: .85rem 1.2rem;
+    font-size: .9rem;
 }
 
 @media (max-width: 991px) {
@@ -59,4 +69,27 @@
     .nav-link {
         padding: 0.65rem 1rem !important;
     }
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-collapse {
+    align-items: center;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    white-space: nowrap;
+    font-size: .95rem;
 }

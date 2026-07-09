@@ -14,8 +14,16 @@
         <div class="row g-4 mt-4 align-items-stretch">
             <div class="col-lg-6">
                 <div class="product-card product-card-large">
-                    <div class="product-image">
+                    <!-- <div class="product-image">
                         <img src="assets/img/products/howo-t7h.png" alt="HOWO T7H">
+                    </div> -->
+                    <div class="catalog-image">
+                        <img src="assets/img/products/howo-t7h.png" class="product-main-image" id="productImage1">
+                        <div class="product-thumbs">
+                            <img src="assets/img/products/howo-t7h.png" class="thumb active" onclick="changeProductImage(this,'productImage1')">
+                            <img src="assets/img/products/howo-t7h.png" class="thumb" onclick="changeProductImage(this,'productImage1')">
+                            <img src="assets/img/products/howo-t7h.png" class="thumb" onclick="changeProductImage(this,'productImage1')">
+                        </div>
                     </div>
                     <div class="product-body">
                         <div class="product-chip-row">
@@ -45,8 +53,13 @@
                 <div class="row g-4">
                     <div class="col-md-6">
                         <div class="product-card product-card-compact">
-                            <div class="product-image">
-                                <img src="assets/img/products/shacman-x3000.png" alt="SHACMAN X3000">
+                            <div class="catalog-image">
+                                <img src="assets/img/products/shacman-x3000.png" class="product-main-image" id="productImage2">
+                                <div class="product-thumbs">
+                                    <img src="assets/img/products/shacman-x3000.png" class="thumb active" onclick="changeProductImage(this,'productImage2')">
+                                    <img src="assets/img/products/shacman-x3000.png" class="thumb" onclick="changeProductImage(this,'productImage2')">
+                                    <img src="assets/img/products/shacman-x3000.png" class="thumb" onclick="changeProductImage(this,'productImage2')">
+                                </div>
                             </div>
                             <div class="product-body">
                                 <div class="product-chip-row">
@@ -70,8 +83,13 @@
 
                     <div class="col-md-6">
                         <div class="product-card product-card-compact">
-                            <div class="product-image">
-                                <img src="assets/img/products/sinotruk-max.png" alt="SINOTRUK MAX">
+                            <div class="catalog-image">
+                                <img src="assets/img/products/sinotruk-max.png" class="product-main-image" id="productImage3">
+                                <div class="product-thumbs">
+                                    <img src="assets/img/products/sinotruk-max.png" class="thumb active" onclick="changeProductImage(this,'productImage3')">
+                                    <img src="assets/img/products/sinotruk-max.png" class="thumb" onclick="changeProductImage(this,'productImage3')">
+                                    <img src="assets/img/products/sinotruk-max.png" class="thumb" onclick="changeProductImage(this,'productImage3')">
+                                </div>
                             </div>
                             <div class="product-body">
                                 <div class="product-chip-row">
@@ -95,8 +113,13 @@
 
                     <div class="col-12">
                         <div class="product-card product-card-compact">
-                            <div class="product-image">
-                                <img src="assets/img/products/foton-auman.png" alt="FOTON AUMAN GTL">
+                            <div class="catalog-image">
+                                <img src="assets/img/products/foton-auman.png" class="product-main-image" id="productImage4">
+                                <div class="product-thumbs">
+                                    <img src="assets/img/products/foton-auman.png" class="thumb active" onclick="changeProductImage(this,'productImage4')">
+                                    <img src="assets/img/products/foton-auman.png" class="thumb" onclick="changeProductImage(this,'productImage4')">
+                                    <img src="assets/img/products/foton-auman.png" class="thumb" onclick="changeProductImage(this,'productImage4')">
+                                </div>
                             </div>
                             <div class="product-body">
                                 <div class="product-chip-row">

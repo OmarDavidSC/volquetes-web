@@ -65,6 +65,7 @@ $isProducts = $page === 'productos';
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/widzard.js"></script>
+    <script src="assets/js/product.js"></script>
 
 </body>
 

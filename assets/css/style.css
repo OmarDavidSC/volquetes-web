@@ -21,9 +21,6 @@
     --text-secondary: #6B7280;
 }
 
-
-
-
 h1,
 h2,
 h3,
@@ -69,14 +66,12 @@ p {
 
     /* Forma tipo Transformers */
     border-radius: 0;
-    clip-path: polygon(12px 0,
-            calc(100% - 16px) 0,
-            100% 12px,
-            100% calc(100% - 12px),
-            calc(100% - 12px) 100%,
-            12px 100%,
-            0 calc(100% - 12px),
-            0 12px);
+    clip-path: polygon(0 0,
+            calc(100% - 14px) 0,
+            100% 14px,
+            100% 100%,
+            14px 100%,
+            0 calc(100% - 14px));
 }
 
 /* botones*/
@@ -118,7 +113,7 @@ p {
     padding: 16px 34px;
     color: #222;
     background: transparent;
-    border: 2px solid #ffcc00;
+    border: 2px solid #ffcc00 !important;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .5px;
@@ -136,7 +131,7 @@ p {
 .btn-outline-custom:hover {
     background: #ffcc00 !important;
     color: #111;
-    transform: translateY(-4px);
+    /* transform: translateY(-4px); */
 }
 
 @media (max-width: 992px) {
@@ -157,41 +152,37 @@ p {
 
 .login-access-btn {
     position: relative;
-    border: 1px solid var(--primary);
-    color: var(--dark);
+    width: 120px;
+    height: 50px;
     background: transparent;
-    border-radius: 0;
-    clip-path: polygon(12px 0,
-            calc(100% - 20px) 0,
-            100% 14px,
-            100% calc(100% - 14px),
-            calc(100% - 12px) 100%,
-            20px 100%,
-            0 calc(100% - 14px),
-            0 14px);
-
-    padding: 0.75rem 1.35rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    transition: all .25s ease;
-    box-shadow: 0 8px 20px rgba(224, 224, 6, 0.14);
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
 }
 
-.login-access-btn::after {
-    content: '';
-    position: absolute;
-    inset: 4px;
-    border: 1px solid rgba(224, 224, 6, .18);
-    clip-path: inherit;
-    pointer-events: none;
-}
-
-.login-access-btn:hover,
-.login-access-btn:focus {
-    background: var(--primary);
+.login-access-btn span {
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
     color: var(--dark);
-    transform: translateY(-2px) scale(1.01);
-    box-shadow: 0 16px 30px rgba(224, 224, 6, .24);
+}
+
+.btn-border {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-border polygon {
+    fill: transparent;
+    stroke: var(--primary);
+    stroke-width: 2;
+    transition: .3s;
+}
+
+.login-access-btn:hover .btn-border polygon {
+    fill: var(--primary);
 }
 
 /*productos badges*/
@@ -200,14 +191,12 @@ p {
     padding: 0.55rem 1rem;
     background: rgba(224, 224, 6, 0.16);
     color: var(--primary);
-    clip-path: polygon(10px 0,
-            calc(100% - 10px) 0,
-            100% 10px,
-            100% calc(100% - 10px),
-            calc(100% - 10px) 100%,
-            10px 100%,
-            0 calc(100% - 10px),
-            0 10px);
+    clip-path: polygon(0 0,
+            calc(100% - 14px) 0,
+            100% 14px,
+            100% 100%,
+            14px 100%,
+            0 calc(100% - 14px));
     font-size: 0.85rem;
     font-weight: 700;
 }
@@ -218,14 +207,12 @@ p {
     background: rgba(17, 24, 39, 0.05);
     color: var(--dark-soft);
     border-radius: 0;
-    clip-path: polygon(8px 0,
-            calc(100% - 8px) 0,
-            100% 8px,
-            100% calc(100% - 8px),
-            calc(100% - 8px) 100%,
-            8px 100%,
-            0 calc(100% - 8px),
-            0 8px);
+    clip-path: polygon(0 0,
+            calc(100% - 14px) 0,
+            100% 14px,
+            100% 100%,
+            14px 100%,
+            0 calc(100% - 14px));
     font-size: 0.85rem;
     font-weight: 600;
 }
@@ -242,14 +229,12 @@ p {
     justify-content: center;
     padding: 0.85rem 1rem;
     border-radius: 0;
-    clip-path: polygon(12px 0,
-            calc(100% - 12px) 0,
-            100% 12px,
-            100% calc(100% - 12px),
-            calc(100% - 12px) 100%,
-            12px 100%,
-            0 calc(100% - 12px),
-            0 12px);
+    clip-path: polygon(0 0,
+            calc(100% - 14px) 0,
+            100% 14px,
+            100% 100%,
+            14px 100%,
+            0 calc(100% - 14px));
     background: rgba(216, 0, 35, 0.08);
     color: var(--dark);
     font-weight: 700;

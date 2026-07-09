@@ -1,7 +1,7 @@
 <section id="red-ventas" class="branches-section">
     <div class="container">
         <div class="section-header text-center">
-            <span class="section-badge">RED DE VENTAS</span>
+            <span class="section-badge">NUESTRAS SEDES</span>
             <h2>Encuentra la sede más cercana</h2>
             <p>Soporte comercial y servicio técnico disponible en varias ciudades del país.</p>
         </div>

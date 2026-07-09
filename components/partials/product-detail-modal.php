@@ -5,7 +5,12 @@
                 <button type="button" class="btn-close product-detail-modal__close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                 <div class="row g-0">
                     <div class="col-lg-5 product-detail-modal__media">
-                        <img id="productDetailImage" src="assets/img/products/howo-t7h.png" alt="Producto">
+                        <img id="productDetailImage" class="product-detail-main-image" src="assets/img/products/howo-t7h.png" alt="Producto">
+                        <div class="product-detail-thumbs">
+                            <img class="product-detail-thumb active" src="assets/img/products/howo-t7h.png" onclick="changeModalImage(this)">
+                            <img class="product-detail-thumb" src="assets/img/products/howo-t7h.png" onclick="changeModalImage(this)">
+                            <img class="product-detail-thumb" src="assets/img/products/howo-t7h.png" onclick="changeModalImage(this)">
+                        </div>
                     </div>
                     <div class="col-lg-7 product-detail-modal__content">
                         <div class="product-detail-modal__badge">Detalle del equipo</div>
@@ -14,9 +19,7 @@
                         <p id="productDetailDescription" class="product-detail-modal__description">
                             Diseño robusto, cabina cómoda y sistemas de seguridad para trabajar largas jornadas sin complicaciones.
                         </p>
-
                         <div class="product-detail-modal__specs" id="productDetailSpecs"></div>
-
                         <div class="product-detail-modal__actions">
                             <a id="productQuoteLink" href="https://wa.me/51999999999" target="_blank" class="btn btn-primary px-4">Cotizar ahora</a>
                             <button type="button" class="btn btn-outline-custom px-4" data-bs-dismiss="modal">Cerrar</button>

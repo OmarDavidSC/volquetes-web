@@ -18,14 +18,12 @@
     color: var(--dark);
     padding: 16px 18px;
     border-radius: 0;
-    clip-path: polygon(16px 0,
-            calc(100% - 16px) 0,
-            100% 16px,
-            100% calc(100% - 16px),
-            calc(100% - 16px) 100%,
-            16px 100%,
-            0 calc(100% - 16px),
-            0 16px);
+    clip-path: polygon(0 0,
+            calc(100% - 14px) 0,
+            100% 14px,
+            100% 100%,
+            14px 100%,
+            0 calc(100% - 14px));
     cursor: pointer;
     transition: all 0.25s ease;
     position: relative;
@@ -54,7 +52,7 @@
 }
 
 .wizard-steps .step .step-status i {
-    color: #ffffff;
+    color: var(--light);
 }
 
 .wizard-steps .step.active,
@@ -166,14 +164,12 @@
     font-weight: 600;
     text-align: center;
     border-radius: 0;
-    clip-path: polygon(18px 0,
-            calc(100% - 18px) 0,
-            100% 18px,
-            100% calc(100% - 18px),
-            calc(100% - 18px) 100%,
-            18px 100%,
-            0 calc(100% - 18px),
-            0 18px);
+    clip-path: polygon(0 0,
+            calc(100% - 14px) 0,
+            100% 14px,
+            100% 100%,
+            14px 100%,
+            0 calc(100% - 14px));
     cursor: pointer;
     transition: all 0.25s ease;
 }
